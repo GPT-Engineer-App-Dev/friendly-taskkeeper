@@ -51,7 +51,7 @@ const Index = () => {
           placeholder="Enter a new task"
           className="mr-2"
         />
-        <Button onClick={addTask}>Add Task</Button>
+        <Button onClick={addTask} className="bg-green-500 hover:bg-green-600 text-white">Add Task</Button>
       </div>
       <div className="space-y-4">
         {tasks.map((task) => (
